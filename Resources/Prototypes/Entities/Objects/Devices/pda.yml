@@ -1152,3 +1152,22 @@
     accentHColor: "#001932"
   - type: Icon
     state: pda-blueshield
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: VirologistPDA
+  name: Virologist PDA
+  description: Чи допоможе він в пошуку Ковіду? Наврятчи.
+  components:
+  - type: HealthAnalyzer
+    scanDelay: 1
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+  - type: Pda
+    id: VirologistIDCard
+    state: pda-virology
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#1ee60e"
+  - type: Icon
+    state: pda-virology

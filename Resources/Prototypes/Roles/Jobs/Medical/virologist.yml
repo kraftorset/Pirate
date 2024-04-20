@@ -1,0 +1,33 @@
+- type: job
+  id: Virologist
+  name: job-name-virologist
+  description: job-description-virologist
+  playTimeTracker: JobVirologist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 14400 #4 hrs
+  startingGear: VirologistGear
+  icon: "JobIconVirologist"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+  - Paramedic # DeltaV - Add Paramedic access
+
+- type: startingGear
+  id: VirologistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitVirology
+    back: ClothingBackpackVirologyFilled
+    shoes: ClothingShoesColorWhite
+    outerClothing: ClothingOuterCoatLabViro
+    id: VirologistPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+  innerClothingSkirt: ClothingUniformJumpskirtVirology
+  satchel: ClothingBackpackSatchelVirologyFilled
+  duffelbag: ClothingBackpackDuffelVirologyFilled
+# Я kraftorset вперше роблю таке, і я в шоці.

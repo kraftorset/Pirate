@@ -423,3 +423,13 @@
         - id: Cutlass
         - id: WeaponRevolverPirate
         - id: ClothingEyesEyepatch
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackVirology
+  id: ClothingBackpackVirologyFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalMedical
+      - id: BoxMouthSwab

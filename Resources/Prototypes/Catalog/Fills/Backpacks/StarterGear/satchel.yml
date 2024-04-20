@@ -310,3 +310,13 @@
     - id: GasAnalyzer
     - id: trayScanner
   - type: Unremoveable
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchelVirology
+  id: ClothingBackpackSatchelVirologyFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalMedical
+      - id: BoxMouthSwab

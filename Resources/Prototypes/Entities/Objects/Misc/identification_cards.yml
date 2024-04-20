@@ -864,3 +864,15 @@
       heldPrefix: special
     - type: PresetIdCard
       job: Blueshield
+
+- type: entity
+  parent: IDCardStandard
+  id: VirologistIDCard
+  name: Virologistic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idvirologist
+  - type: PresetIdCard
+    job: Virologist

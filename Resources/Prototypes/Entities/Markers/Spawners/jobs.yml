@@ -612,3 +612,15 @@
     layers:
       - state: green
       - state: zookeeper
+
+- type: entity
+  id: SpawnPointVirologistDoctor
+  parent: SpawnPointJobBase
+  name: virologist
+  components:
+  - type: SpawnPoint
+    job_id: Virologist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: virologist

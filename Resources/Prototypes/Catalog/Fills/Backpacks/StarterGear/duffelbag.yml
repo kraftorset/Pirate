@@ -286,3 +286,13 @@
       - id: HandheldCrewMonitor
       - id: Flash
       - id: WeaponDisabler
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelVirology
+  id: ClothingBackpackDuffelVirologyFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalMedical
+      - id: BoxMouthSwab
